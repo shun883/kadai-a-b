@@ -52,6 +52,6 @@ dice()
 height = float(input('Height(m)? >'))
 weight = float(input('Weight(kg) >'))
 
-bmi = weight / (height ** 2)
+bmi = int(weight / (height ** 2) * 100) / 100
 
-print(f'Your BMI is {round(bmi, 2)}')
+print(bmi)
