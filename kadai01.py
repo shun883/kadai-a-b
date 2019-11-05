@@ -47,3 +47,11 @@ def dice():
     print(random.randint(1, 6))
 
 dice()
+
+# A-11
+height = float(input('Height(m)? >'))
+weight = float(input('Weight(kg) >'))
+
+bmi = weight / (height ** 2)
+
+print(f'Your BMI is {round(bmi, 2)}')
