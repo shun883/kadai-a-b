@@ -23,3 +23,10 @@ for o_num in odd_numbers:
 even_numbers = [2, 4, 6, 8]
 for e_num in even_numbers:
     print(e_num * 2)
+
+# A-8
+users_info = [["Kazuma", 35],
+              ["Tom", 57],
+              ["Bob", 77]]
+
+for user_info in users_info:
