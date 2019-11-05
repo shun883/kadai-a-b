@@ -41,9 +41,9 @@ print(kazuma_info["age"])  # 35
 
 
 # A-10
-def dice():
-    for n in range(1, 7):
-        print(n)
+import random
 
+def dice():
+    print(random.randint(1, 6))
 
 dice()
