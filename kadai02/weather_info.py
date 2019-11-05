@@ -14,22 +14,22 @@ def main():
     ]
 
     # Q1. 全国の平均気温を計算してください(9.5となればOK)
-    list = []
-    for w_info in weather_information:
-        list.append(w_info['temperature'])
 
-    average_temperature = sum(list) / len(list)
-    print(average_temperature)
+    sum_temperture = 0
+    for w_info in weather_information:
+        sum_temperture += w_info['temperature']
+    print(sum_temperture / len(weather_information))
+
 
     # Q2. 大阪府のすべての駅名をカンマ区切りで出力してください( '梅田,大阪,堺' となればOK)
-    osaka = []
+    osaka_station = list()
     for w_info in weather_information:
         if w_info['prefecture'] == '大阪府':
-            osaka.append(w_info['station'])
-    print(','.join(osaka))
+            osaka_station.append(w_info['station'])
+    print(','.join(osaka_station))
 
     # Q3. 福岡県の平均気温を計算してください(14.0となればOK)
-    prefecture_list = []
+    prefecture_list = list()
     for w_info in weather_information:
         if w_info['prefecture'] == '福岡県':
             prefecture_list.append(w_info['temperature'])
