@@ -10,3 +10,6 @@ kazuma_info = ['Kazuma', 'Takahashi', 35]
 # A-4
 members = ['Kazuma', 'Makoto', 'Ohira']
 print(members[0], members[1])
+
+# A-5
+print(f'Name: {kazuma_info[1]} {kazuma_info[0]},Age:{kazuma_info[2]}')
