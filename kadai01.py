@@ -31,3 +31,10 @@ users_info = [["Kazuma", 35],
 
 for user_info in users_info:
     print(f'Name: {user_info[0]}, Age: {user_info[1]}')
+
+# A-9
+kazuma_info = {'first_name': 'kazuma', 'family_name': 'takahashi', 'age': 35}
+
+print(kazuma_info["first_name"])  # "Kazuma"
+print(kazuma_info["family_name"])  # "Takahashi"
+print(kazuma_info["age"])  # 35
