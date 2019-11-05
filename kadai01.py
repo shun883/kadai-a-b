@@ -18,3 +18,8 @@ print(f'Name: {kazuma_info[1]} {kazuma_info[0]},Age:{kazuma_info[2]}')
 odd_numbers = [1, 3, 5, 7, 9]
 for o_num in odd_numbers:
     print(o_num)
+
+# A-7
+even_numbers = [2, 4, 6, 8]
+for e_num in even_numbers:
+    print(e_num * 2)
