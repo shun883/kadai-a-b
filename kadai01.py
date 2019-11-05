@@ -13,3 +13,8 @@ print(members[0], members[1])
 
 # A-5
 print(f'Name: {kazuma_info[1]} {kazuma_info[0]},Age:{kazuma_info[2]}')
+
+# A-6
+odd_numbers = [1, 3, 5, 7, 9]
+for o_num in odd_numbers:
+    print(o_num)
