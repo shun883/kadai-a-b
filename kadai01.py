@@ -38,3 +38,12 @@ kazuma_info = {'first_name': 'kazuma', 'family_name': 'takahashi', 'age': 35}
 print(kazuma_info["first_name"])  # "Kazuma"
 print(kazuma_info["family_name"])  # "Takahashi"
 print(kazuma_info["age"])  # 35
+
+
+# A-10
+def dice():
+    for n in range(1, 7):
+        print(n)
+
+
+dice()
