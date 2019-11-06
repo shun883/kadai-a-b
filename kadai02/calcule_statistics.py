@@ -6,7 +6,7 @@ def create_sum(dates):
 
 
 def create_max(dates):
-    max_date = 0
+    max_date = dates[0]
     for date in dates:
         if date > max_date:
             max_date = date
