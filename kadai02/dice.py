@@ -13,11 +13,12 @@ dice_count = int(input('何回振りますか？'))
 
 def dice():
     count = 0
+    dice_list = list()
     while True:
         if count == dice_count:
             break
-        print(random.randint(1, dice_face))
+        dice_list.append(random.randint(1, dice_face))
         count += 1
-
+    print(dice_list)
 
 dice()
