@@ -7,8 +7,8 @@
 
 import random
 
-dice_face = 8
-dice_count = 3
+dice_face = int(input('サイコロの面の数は？'))
+dice_count = int(input('何回振りますか？'))
 
 
 def dice():
