@@ -20,4 +20,4 @@ def dice():
         count += 1
 
 
-print(dice())
+dice()
